@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ArticleJsonFetch
+namespace HttpRequest.Services
 {
     internal static class ExceptionTester
     {
@@ -39,7 +39,7 @@ namespace ArticleJsonFetch
             return dnsTestResult;
         }
 
-        private static string PingTest(System.Net.IPAddress host)
+        private static string PingTest(IPAddress host)
         {
             string pingTestResult = string.Empty;
             try
@@ -52,9 +52,9 @@ namespace ArticleJsonFetch
                 pingTestResult += $"\nPing success...\nReply from took {reply.RoundtripTime} milliseconds:\n\tHost: {host}\n\tAddress: {reply.Address}\n\tRTT: {reply.RoundtripTime}\n\tTimeout: {timeout}\n";
                 pingTestResult += $"\nSend another Ping to {host}? (Ping(P)/Cancel(C))\n";
             }
-            catch (System.Net.NetworkInformation.PingException ex)
+            catch (PingException ex)
             {
-                if (String.Equals(ex.Source, "System.Net.Ping"))
+                if (string.Equals(ex.Source, "System.Net.Ping"))
                     pingTestResult += $"\nPlease check your network connection.\nAn exception occurred attempting to ping host: {host}. \n{ex.InnerException!.StackTrace}\n{ex.StackTrace}\n";
                 else
                     pingTestResult += $"\nAn exception occurred attempting to ping host: {host}. \n{ex.InnerException!.StackTrace}\n{ex.StackTrace}\n";

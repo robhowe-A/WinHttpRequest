@@ -87,7 +87,7 @@ namespace ArticleJsonFetch
             txtboxUrl.MinimumSize = new Size(375, 0);
             txtboxUrl.Name = "txtboxUrl";
             txtboxUrl.Size = new Size(425, 23);
-            txtboxUrl.TabIndex = 1;
+            txtboxUrl.TabIndex = 2;
             txtboxUrl.TextChanged += urlTextBox_TextChanged;
             // 
             // label1
@@ -107,7 +107,7 @@ namespace ArticleJsonFetch
             btnFetch.Margin = new Padding(1);
             btnFetch.Name = "btnFetch";
             btnFetch.Size = new Size(58, 23);
-            btnFetch.TabIndex = 5;
+            btnFetch.TabIndex = 9;
             btnFetch.Text = "&Fetch";
             btnFetch.UseVisualStyleBackColor = true;
             btnFetch.Click += btnFetch_Click;
@@ -119,7 +119,7 @@ namespace ArticleJsonFetch
             btnExit.Margin = new Padding(10);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(39, 23);
-            btnExit.TabIndex = 8;
+            btnExit.TabIndex = 14;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
@@ -132,7 +132,7 @@ namespace ArticleJsonFetch
             contentTypeComboBox.Margin = new Padding(0);
             contentTypeComboBox.Name = "contentTypeComboBox";
             contentTypeComboBox.Size = new Size(121, 23);
-            contentTypeComboBox.TabIndex = 3;
+            contentTypeComboBox.TabIndex = 6;
             contentTypeComboBox.SelectedIndexChanged += contentTypeComboBox_SelectedIndexChanged;
             // 
             // label4
@@ -142,7 +142,7 @@ namespace ArticleJsonFetch
             label4.Margin = new Padding(0);
             label4.Name = "label4";
             label4.Size = new Size(79, 15);
-            label4.TabIndex = 9;
+            label4.TabIndex = 5;
             label4.Text = "Content-Type";
             // 
             // label3
@@ -153,7 +153,7 @@ namespace ArticleJsonFetch
             label3.Name = "label3";
             label3.Size = new Size(34, 15);
             label3.TabIndex = 7;
-            label3.Text = "&Body";
+            label3.Text = "Body";
             // 
             // label2
             // 
@@ -162,8 +162,8 @@ namespace ArticleJsonFetch
             label2.Margin = new Padding(0);
             label2.Name = "label2";
             label2.Size = new Size(49, 15);
-            label2.TabIndex = 5;
-            label2.Text = "&Method";
+            label2.TabIndex = 3;
+            label2.Text = "Method";
             // 
             // methodCombo
             // 
@@ -173,7 +173,7 @@ namespace ArticleJsonFetch
             methodCombo.Margin = new Padding(0);
             methodCombo.Name = "methodCombo";
             methodCombo.Size = new Size(121, 23);
-            methodCombo.TabIndex = 2;
+            methodCombo.TabIndex = 4;
             methodCombo.SelectedIndexChanged += methodCombo_SelectedIndexChanged;
             // 
             // btnJSON
@@ -198,7 +198,7 @@ namespace ArticleJsonFetch
             richTxtData.ReadOnly = true;
             richTxtData.ScrollBars = RichTextBoxScrollBars.Vertical;
             richTxtData.Size = new Size(572, 397);
-            richTxtData.TabIndex = 4;
+            richTxtData.TabIndex = 10;
             richTxtData.Text = "";
             // 
             // tableLayoutPanel1
@@ -246,7 +246,7 @@ namespace ArticleJsonFetch
             btnTest.Name = "btnTest";
             btnTest.Size = new Size(60, 46);
             btnTest.TabIndex = 1;
-            btnTest.Text = "&Test";
+            btnTest.Text = "Test";
             btnTest.UseVisualStyleBackColor = true;
             btnTest.Visible = false;
             btnTest.Click += btnPing_Click;
@@ -259,7 +259,7 @@ namespace ArticleJsonFetch
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(60, 46);
             btnCancel.TabIndex = 2;
-            btnCancel.Text = "Ca&ncel";
+            btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Visible = false;
             btnCancel.Click += btnCancel_Click;
@@ -298,7 +298,7 @@ namespace ArticleJsonFetch
             toolStripSplitOptions.ImageTransparentColor = Color.Magenta;
             toolStripSplitOptions.Name = "toolStripSplitOptions";
             toolStripSplitOptions.Size = new Size(65, 22);
-            toolStripSplitOptions.Text = "Options";
+            toolStripSplitOptions.Text = "&Options";
             toolStripSplitOptions.ButtonClick += toolStripSplitButton1_ButtonClick;
             // 
             // toolStripMenuItemShowContentHeaders
@@ -342,7 +342,8 @@ namespace ArticleJsonFetch
             tableLayoutPanel1.SetRowSpan(splitContainerMain, 2);
             splitContainerMain.Size = new Size(632, 581);
             splitContainerMain.SplitterDistance = 180;
-            splitContainerMain.TabIndex = 1003;
+            splitContainerMain.TabIndex = 0;
+            splitContainerMain.TabStop = false;
             // 
             // panel1
             // 
@@ -372,8 +373,10 @@ namespace ArticleJsonFetch
             richtxtBody.MinimumSize = new Size(350, 0);
             richtxtBody.Multiline = true;
             richtxtBody.Name = "richtxtBody";
+            richtxtBody.ScrollBars = ScrollBars.Vertical;
             richtxtBody.Size = new Size(400, 94);
-            richtxtBody.TabIndex = 10;
+            richtxtBody.TabIndex = 8;
+            richtxtBody.TextChanged += richtxtBody_TextChanged;
             // 
             // splitContainerFetchData
             // 
@@ -393,7 +396,8 @@ namespace ArticleJsonFetch
             splitContainerFetchData.Panel2.Controls.Add(flowLayoutPanel1);
             splitContainerFetchData.Size = new Size(632, 397);
             splitContainerFetchData.SplitterDistance = 572;
-            splitContainerFetchData.TabIndex = 5;
+            splitContainerFetchData.TabIndex = 0;
+            splitContainerFetchData.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -410,7 +414,7 @@ namespace ArticleJsonFetch
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Padding = new Padding(1);
             flowLayoutPanel1.Size = new Size(58, 397);
-            flowLayoutPanel1.TabIndex = 7;
+            flowLayoutPanel1.TabIndex = 0;
             // 
             // btnFull
             // 
@@ -418,7 +422,7 @@ namespace ArticleJsonFetch
             btnFull.Margin = new Padding(0, 1, 1, 1);
             btnFull.Name = "btnFull";
             btnFull.Size = new Size(50, 46);
-            btnFull.TabIndex = 8;
+            btnFull.TabIndex = 11;
             btnFull.Text = "FULL";
             btnFull.UseVisualStyleBackColor = true;
             btnFull.Click += btnFull_Click;
@@ -429,7 +433,7 @@ namespace ArticleJsonFetch
             btnClear.Margin = new Padding(0, 1, 1, 1);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(50, 46);
-            btnClear.TabIndex = 7;
+            btnClear.TabIndex = 12;
             btnClear.Text = "&CLEAR";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
@@ -440,7 +444,7 @@ namespace ArticleJsonFetch
             btnCopy.Margin = new Padding(0, 1, 1, 1);
             btnCopy.Name = "btnCopy";
             btnCopy.Size = new Size(50, 46);
-            btnCopy.TabIndex = 6;
+            btnCopy.TabIndex = 13;
             btnCopy.Text = "C&OPY";
             btnCopy.UseVisualStyleBackColor = true;
             btnCopy.Click += btnCopy_Click;

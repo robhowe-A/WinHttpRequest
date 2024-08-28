@@ -35,12 +35,18 @@ namespace ArticleJsonFetch.Services
         {
             if (String.IsNullOrWhiteSpace(contentType))
             {
+                if (_requestData.MessageBody != null && _requestData.MessageBody.Headers.Contains("Content-Type"))
+                    _requestData.MessageBody.Headers.Remove("Content-Type");
                 _requestData.MessageBody = new StringContent(messageBodyText);
             }
             else if (String.Equals(contentType, "application/json"))
             {
                 _requestData.ContentType = contentType;
-                _requestData.MessageBody = new StringContent(messageBodyText, Encoding.UTF8, "application/json");
+                _requestData.MessageBody = new StringContent(messageBodyText);
+
+                //_requestData.MessageBody = new StringContent(messageBodyText, Encoding.UTF8, "application/json");
+                _requestData.MessageBody.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+
             }
             else
             {

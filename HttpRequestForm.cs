@@ -16,6 +16,7 @@ using System.Net.NetworkInformation;
 using ArticleJsonFetch.Services;
 using System;
 using System.Net.Http;
+using HttpRequest.Services;
 
 namespace ArticleJsonFetch
 {
@@ -33,6 +34,7 @@ namespace ArticleJsonFetch
         private HRFDataExtraction HRFDataExtraction = new HRFDataExtraction();
         private RequestEngine RequestEngine;
         private bool DisableDnsTesting = false;
+        private string bodyText = string.Empty;
 
 
         enum DataKind
@@ -58,49 +60,56 @@ namespace ArticleJsonFetch
 
             // Change tooltip back to normal
             if (_controlException != null && _UrlControlExceptioned != null)
-                _controlException.returnExceptionToolTip(urlToolTip, _UrlControlExceptioned, validUrl);
+                _controlException.returnControlExceptionToolTip(ref urlToolTip, ref _UrlControlExceptioned, validUrl);
             else if (_controlException != null)
             {
-                _controlException.returnExceptionToolTip(urlToolTip, txtboxUrl, validUrl);
+                _UrlControlExceptioned = txtboxUrl;
+                _controlException.returnControlExceptionToolTip(ref urlToolTip, ref _UrlControlExceptioned, validUrl);
             }
         }
 
         private void methodCombo_SelectedIndexChanged(object sender, EventArgs e)
         {
             var urlCheckMethod = methodCombo.Text;
+
             HRFDataExtraction.SetRequestMethod(methodCombo.Text);
 
             if (String.Equals(urlCheckMethod, "GET") | String.Equals(urlCheckMethod, "HEAD"))
             {
+                bodyText = richtxtBody.Text;
+                richtxtBody.Text = string.Empty;
                 richtxtBody.ReadOnly = true;
             }
             else
             {
+                if (HRFDataExtraction.RequestData.MessageBody != null)
+                    richtxtBody.Text = bodyText;
                 richtxtBody.ReadOnly = false;
             }
         }
-        
+
         private void contentTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            HRFDataExtraction.SetRequestMessageBody(contentTypeComboBox.Text, contentTypeComboBox.Text);
+            HRFDataExtraction.SetRequestMessageBody(richtxtBody.Text, contentTypeComboBox.Text);
         }
 
-        private void bodyTextBox_TextChanged(object sender, EventArgs e)
+        private void richtxtBody_TextChanged(object sender, EventArgs e)
         {
-            HRFDataExtraction.SetRequestMessageBody(contentTypeComboBox.Text, contentTypeComboBox.Text);
+            HRFDataExtraction.SetRequestMessageBody(richtxtBody.Text, contentTypeComboBox.Text);
         }
 
         private async void btnFetch_Click(object sender, EventArgs e)
         {
             SetupBaseUrlforFetch();
-            SetupMessageBodyforFetch();
+            //SetupMessageBodyforFetch();
             SetupResponseBodyBtnOptions();
 
             if (urlToolTipIsExceptionMessage)
             {//reset rich text box and tooltip
+             //stop the fetch continuing because of the bad url
                 richTxtData.Text = "";
                 var blankMessage = " ";
-                _controlException.createInfoToolTip(ref dataToolTip, ref richTxtData, blankMessage);
+                _controlException.returnRichTextToolTip(ref dataToolTip, ref richTxtData, blankMessage);
                 richTxtBoxToolTipIsExceptionMessage = false;
                 urlToolTipIsExceptionMessage = false;
 
@@ -108,7 +117,7 @@ namespace ArticleJsonFetch
             }
 
             var responseDataText = await RequestEngine.CallDataFetch(HRFDataExtraction);
-            if(responseDataText.isMessageException == true)
+            if (responseDataText.isMessageException == true)
             {
                 //logic for handling exception
                 //if message...
@@ -123,7 +132,7 @@ namespace ArticleJsonFetch
                 if (responseDataText.isDnsTestingCandidate)
                 {
                     var httpExceptionRequest = RequestEngine.LastestException;
-                    DnsTestingOnException(httpExceptionRequest!, RequestEngine.BaseAddress!);
+                    DnsTestingOnException(httpExceptionRequest!, RequestEngine.BaseAddress!, responseDataText.responseData);
                 }
             }
             else
@@ -149,13 +158,12 @@ namespace ArticleJsonFetch
             string dataToolTipCaption = $"Data Length is: {RequestDataLength.ToString()}\nOther: 100!";
 
             if (!richTxtBoxToolTipIsExceptionMessage)
-                _controlException.createInfoToolTip(ref dataToolTip, ref richTxtData, dataToolTipCaption);
+                _controlException.createRichTextToolTip(ref dataToolTip, ref richTxtData, dataToolTipCaption, "info");
         }
 
         private void SetRichTxtBoxException(string caption)
         {
-            _RichText1ControlExceptioned = richTxtData;
-            _controlException.createExceptionToolTip(ref dataToolTip, ref _RichText1ControlExceptioned, caption);
+            _controlException.createRichTextToolTip(ref dataToolTip, ref richTxtData, caption, "error");
             richTxtData.ForeColor = System.Drawing.Color.Red;
             richTxtBoxToolTipIsExceptionMessage = true;
         }
@@ -164,7 +172,7 @@ namespace ArticleJsonFetch
         {
             if (String.IsNullOrWhiteSpace(txtboxUrl.Text))
             {
-                throw new ArgumentNullException("txtboxUrl.Text", "Url cannot be empty. Please enter a valid url.");
+                return;
             }
             try
             {
@@ -183,7 +191,7 @@ namespace ArticleJsonFetch
                 Console.WriteLine("UriFormatException Caught!");
                 Console.WriteLine("Message: {0} ", e.Message);
                 _UrlControlExceptioned = txtboxUrl;
-                _controlException.createExceptionToolTip(ref urlToolTip, ref _UrlControlExceptioned, e.Message);
+                _controlException.createControlExceptionToolTip(ref urlToolTip, ref _UrlControlExceptioned, e.Message, "error");
                 urlToolTipIsExceptionMessage = true;
             }
             catch (Exception e)
@@ -196,7 +204,15 @@ namespace ArticleJsonFetch
 
         private void SetupMessageBodyforFetch()
         {
-            HRFDataExtraction.SetRequestBody(richtxtBody.Text);
+            //Debug.WriteLine(richtxtBody.Text.ToString());
+            //var bodyStr = richtxtBody.Text.ToString();
+            //if (CheckDataKindIsJson(bodyStr))
+            //{
+            //    Debug.WriteLine("True");
+            //    bodyStr = JsonConvert.ToString(bodyStr);
+            //}
+            //HRFDataExtraction.SetRequestBody(bodyStr);
+            HRFDataExtraction.SetRequestMessageBody(richtxtBody.Text, contentTypeComboBox.Text);
         }
 
         private void SetupResponseBodyBtnOptions()
@@ -206,7 +222,7 @@ namespace ArticleJsonFetch
             flowLayoutPanel1.Controls.Remove(btnJSON);
         }
 
-        private string DnsTestingOnException(System.Exception ex, Uri baseAddress)
+        private string DnsTestingOnException(System.Exception ex, Uri baseAddress, string responseData)
         {
             //Begin DNS test
 
@@ -228,7 +244,7 @@ namespace ArticleJsonFetch
 
             bool TriedDnsTest = false;
             string DnsTestResultMessage = string.Empty;
-            richTxtData.Text = ex.Message + "\n";
+            richTxtData.Text = responseData + "\n";
             richTxtData.Text += "There's been an error trying that fetch. Do you want to test DNS ( Test (Alt + T)/Cancel (Alt + N) )?\n";
 
             do
@@ -407,5 +423,6 @@ namespace ArticleJsonFetch
             }
         }
 
+        
     }
 }
