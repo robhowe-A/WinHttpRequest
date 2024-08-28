@@ -11,7 +11,7 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 
 Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in most elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations a request encounters. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small, and Forms seems to fit that.  
 
-1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/tag/v1.0.0-alpha)  
+1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/tag/v1.1.0-alpha)  
 2. Unzip the contents  
 3. Double-click the executable  
 4. Tell windows the app is okay to run by clicking "Run anyway" (first, click more info to show the publisher. Don't worry, I'm the developer and this happens because the publisher isn't known by your computer.)  
