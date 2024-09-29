@@ -27,3 +27,4 @@ Enter any url and select a method for the request. The default is a GET request.
 &copy; 2024, Robert Howell. All rights reserved.
 #### Tags  
 9-28-2024: v1.3.3-alpha  
+9-29-2024: v1.3.4-alpha - PATCH + DELETE added  
