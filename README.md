@@ -6,12 +6,12 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 
 ##  Where do I begin?  
 - The solution files were created in visual studio 2022.  
-- An executable of the application is made up of this repository's code. Just click on the release tag on the code directory page to go to the application download location.
+- An executable of the application is made up of the current alpha release. Just click on the release tag on the code directory page to go to the application download location.
 - It's target is for Windows x64 desktop.  
 
-Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in most elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations a request encounters. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small, and Forms seems to fit that.  
+Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations a request encounters. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small, and Forms seems to fit that.  
 
-1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/tag/v1.1.0-alpha)  
+1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/)  
 2. Unzip the contents  
 3. Double-click the executable  
 4. Tell windows the app is okay to run by clicking "Run anyway" (first, click more info to show the publisher. Don't worry, I'm the developer and this happens because the publisher isn't known by your computer.)  
@@ -21,11 +21,12 @@ Http Request is a working tool, not an attractive or refined display product. Th
 
 
 ## How to use the application  
-Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests.  
+Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests. Some functionality is for developement purposes and may not function.  
 
+--------  
+&copy; 2024, Robert Howell. All rights reserved.  
 
-&copy; 2024, Robert Howell. All rights reserved.
-#### Tags  
+#### Tags - (optional)Updates  
 9-28-2024: v1.3.3-alpha  
 9-29-2024: v1.3.4-alpha - PATCH + DELETE added  
 9-30-2024: v1.4.1-alpha - advanced requests  
