@@ -29,3 +29,4 @@ Enter any url and select a method for the request. The default is a GET request.
 9-28-2024: v1.3.3-alpha  
 9-29-2024: v1.3.4-alpha - PATCH + DELETE added  
 9-30-2024: v1.4.1-alpha - advanced requests  
+9-30-2024: v1.4.2-alpha - advanced form sizing  
