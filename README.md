@@ -17,7 +17,7 @@ Http Request is a working tool, not an attractive or refined display product. Th
 4. Tell windows the app is okay to run by clicking "Run anyway" (first, click more info to show the publisher. Don't worry, I'm the developer and this happens because the publisher isn't known by your computer.)  
 5. That's it! You now have the repository's application skipping the need to build and publish.  
 
-<img src="HttpRequest.png" width="95%">
+<img src="HttpRequest.png" width="55%">
 
 
 ## How to use the application  
