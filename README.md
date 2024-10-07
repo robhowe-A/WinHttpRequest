@@ -32,5 +32,6 @@ Enter any url and select a method for the request. The default is a GET request.
 9-30-2024: v1.4.1-alpha - advanced requests  
 9-30-2024: v1.4.2-alpha - advanced form sizing  
 10-1-2024: v1.4.3-alpha - name-value key  
-10-6-2024: v1.5.2-alpha - advanced details view  
+10-6-2024: v1.5.1-alpha - advanced details view  
+10-6-2024: v1.5.2-alpha  
 10-6-2024: v1.5.3-alpha  
