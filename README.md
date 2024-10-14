@@ -35,3 +35,4 @@ Enter any url and select a method for the request. The default is a GET request.
 10-6-2024: v1.5.1-alpha - advanced details view  
 10-6-2024: v1.5.2-alpha  
 10-6-2024: v1.5.3-alpha  
+10-13-2024: v1.6.1-alpha - performance measure  
