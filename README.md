@@ -37,3 +37,4 @@ Enter any url and select a method for the request. The default is a GET request.
 10-6-2024: v1.5.3-alpha  
 10-13-2024: v1.6.1-alpha - performance measure  
 10-19-2024: v1.6.2-alpha - "delete" menustrip  
+10-20-2024: v1.6.3-alpha - http version option functionality  
