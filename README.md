@@ -39,3 +39,4 @@ Enter any url and select a method for the request. The default is a GET request.
 10-19-2024: v1.6.2-alpha - "delete" menustrip  
 10-19-2024: v1.6.3-alpha  
 10-20-2024: v1.6.4-alpha - http version option functionality  
+10-22-2024: v1.6.4-alpha - progress bar  
