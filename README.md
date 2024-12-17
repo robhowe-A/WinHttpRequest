@@ -42,3 +42,4 @@ Enter any url and select a method for the request. The default is a GET request.
 10-22-2024: v1.6.5-alpha - progress bar  
 10-22-2024: v1.6.6-alpha - http/3  
 11-18-2024: v1.6.7-alpha - embedded user agent  
+12-16-2024: v1.7.1-alpha - link requests(via html head)  
