@@ -46,3 +46,4 @@ Enter any url and select a method for the request. The default is a GET request.
 12-17-2024: v1.7.2-alpha - html subsequents  
 12-18-2024: v1.7.3-alpha - html css subsequent  
 12-19-2024: v1.7.4-alpha - status code each tab  
+12-21-2024: v1.7.5-alpha - status code advanced detail  
