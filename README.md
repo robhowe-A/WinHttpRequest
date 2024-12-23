@@ -9,7 +9,7 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 - An executable of the application is made up of the current alpha release. Just click on the release tag on the code directory page to go to the application download location.
 - It's target is for Windows x64 desktop.  
 
-Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations a request encounters. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small, and Forms seems to fit that.  
+Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations a request encounters. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small. Also, Forms seems to fit that.  
 
 1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/)  
 2. Unzip the contents  
