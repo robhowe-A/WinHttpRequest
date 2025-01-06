@@ -46,6 +46,6 @@ Enter any url and select a method for the request. The default is a GET request.
 12-17-2024: v1.7.2-alpha - html subsequents  
 12-18-2024: v1.7.3-alpha - html css subsequent  
 12-19-2024: v1.7.4-alpha - status code each tab  
-1-6-2025: v1.8.1-alpha - DELETE method request body  
 12-21-2024: v1.7.5-alpha - status code advanced detail  
 12-21-2024: v1.7.6-alpha - item detail adv view  
+1-6-2025: v1.8.1-alpha - DELETE method request body  
