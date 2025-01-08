@@ -52,4 +52,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-6-2025: v1.8.2-alpha - adv window open bug fix  
 1-7-2025: v1.8.3-alpha - clear + copy buttons for individual response tab  
 1-8-2025: v1.8.4-alpha - adv buttons change visibility behavior  
-1-8-2025: v1.8.5-alpha - adv button on exception change  
+1-8-2025: v1.8.5-alpha - adv button tag data change on exception  
