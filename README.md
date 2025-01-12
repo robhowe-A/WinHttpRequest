@@ -54,3 +54,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-8-2025: v1.8.4-alpha - adv buttons change visibility behavior  
 1-8-2025: v1.8.5-alpha - adv button tag data change on exception  
 1-12-2025: v1.8.6-alpha - Request address data detail  
+1-12-2025: v1.8.7-alpha - Request address data detail full sizing  
