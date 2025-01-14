@@ -56,3 +56,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-12-2025: v1.8.6-alpha - Request address data detail  
 1-12-2025: v1.8.7-alpha - Request address data detail full sizing  
 1-13-2025: v1.8.8-alpha - Adanced option "Allow auto redirect"  
+1-14-2025: v1.8.9-alpha - Advanced detail addition  
