@@ -71,3 +71,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-16-2025: v1.8.11-alpha - Data grid view row cleanup exception fix  
 1-18-2025: v1.8.12-alpha - Content-Type header without request message body added  
 1-24-2025: v1.9.1-alpha - XML indented print  
+1-27-2025: v1.9.2-alpha - Remove adv view on request form change (allow redirect toggle)  
