@@ -75,3 +75,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-27-2025: v1.9.2-alpha - Remove adv view on request form change (allow redirect toggle)  
 2-3-2025: v1.9.3-alpha - Duplicate Host header show error in data grid  
 2-14-2025: v2.0.0-alpha - .NET 9 desktop version (GUI ONLY... use v1 release for developed functions)  
+2-14-2025: v2.0.1-alpha - Prevent app opening if login is not selected  
