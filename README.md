@@ -17,8 +17,9 @@ Http Request is a working tool, not an attractive or refined display product. Th
 1. Download the compression folder [here](https://github.com/robhowe-A/WinHttpRequest/releases/)  
 2. Unzip the contents  
 3. Double-click the executable  
-4. Tell windows the app is okay to run by clicking "Run anyway" (first, click more info to show the publisher. Don't worry, I'm the developer and this happens because the publisher isn't known by your computer.)  
-5. That's it! You now have the repository's application skipping the need to build and publish.  
+4.(Possible instruction leaf) Dotnet 9 is required for >v2 of this application; starting the .exe may prompt for runtime download. Follow the download, confirm the download hash, and install.  
+5.(Possible instruction leaf) Tell windows the app is okay to run by clicking "Run anyway" (first, click more info to show the publisher. Don't worry, I'm the developer and this happens because the publisher isn't known by your computer.)  
+6. That's it! You now have the repository's application skipping the need to build and publish.  
 
 <img src="HttpRequest_v1.9.1-alpha.png" width="35%">
 
@@ -73,3 +74,4 @@ Enter any url and select a method for the request. The default is a GET request.
 1-24-2025: v1.9.1-alpha - XML indented print  
 1-27-2025: v1.9.2-alpha - Remove adv view on request form change (allow redirect toggle)  
 2-3-2025: v1.9.3-alpha - Duplicate Host header show error in data grid  
+2-14-2025: v2.0.0-alpha - .NET 9 desktop version (GUI ONLY... use v1 release for developed functions)  
