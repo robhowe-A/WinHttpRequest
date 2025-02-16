@@ -76,3 +76,4 @@ Enter any url and select a method for the request. The default is a GET request.
 2-3-2025: v1.9.3-alpha - Duplicate Host header show error in data grid  
 2-14-2025: v2.0.0-alpha - .NET 9 desktop version (GUI ONLY... use v1 release for developed functions)  
 2-14-2025: v2.0.1-alpha - Prevent app opening if login is not selected  
+2-16-2025: v2.0.2-alpha - Styles and view function setup  
