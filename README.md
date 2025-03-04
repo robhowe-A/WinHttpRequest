@@ -78,3 +78,4 @@ Enter any url and select a method for the request. The default is a GET request.
 2-14-2025: v2.0.1-alpha - Prevent app opening if login is not selected  
 2-16-2025: v2.0.2-alpha - Styles and view function setup  
 2-28-2025: v2.0.3-alpha - Form basic request functions implementation  
+3-4-2025: v2.0.4-alpha - Advanced details form open  
