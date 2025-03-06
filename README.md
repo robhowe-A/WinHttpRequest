@@ -80,3 +80,4 @@ Enter any url and select a method for the request. The default is a GET request.
 2-28-2025: v2.0.3-alpha - Form basic request functions implementation  
 3-4-2025: v2.0.4-alpha - Advanced details form open  
 3-5-2025: v2.0.4-alpha - Clear and copy basic functions  
+3-6-2025: v2.0.6-alpha - Advanced details window text, data addition  
