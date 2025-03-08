@@ -82,3 +82,4 @@ Enter any url and select a method for the request. The default is a GET request.
 3-5-2025: v2.0.5-alpha - Clear and copy basic functions  
 3-6-2025: v2.0.6-alpha - Advanced details window text, data addition  
 3-7-2025: v2.0.7-alpha - Advanced details additions  
+3-8-2025: v2.0.8-alpha - Advanced details window size  
