@@ -85,4 +85,4 @@ Enter any url and select a method for the request. The default is a GET request.
 3-8-2025: v2.0.8-alpha - Advanced details window size  
 3-10-2025: v2.0.9-alpha - Server headers added to requests  
 3-10-2025: v2.1.0-alpha - Advanced options addition  
-3-19-2025: v2.1.1-alpha - Added request send status info + bug fix  
+3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect  
