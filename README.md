@@ -25,7 +25,7 @@ Http Request is a working tool, not an attractive or refined display product. Th
 
 
 ## How to use the application  
-Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests. Some functionality is for developement purposes and may not function.  
+Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests. Some functionality is for development purposes and may not function.  
 
 --------  
 &copy; 2024, Robert Howell. All rights reserved.  
