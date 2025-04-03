@@ -27,6 +27,9 @@ Http Request is a working tool, not an attractive or refined display product. Th
 ## How to use the application  
 Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests. Some functionality is for development purposes and may not function.  
 
+## Privacy Policy:
+This app does not collect PII data or any records to identify a purchaser individual. Collected information is anonymous and to be used for software improvement.  
+
 --------  
 &copy; 2024, Robert Howell. All rights reserved.  
 
