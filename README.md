@@ -1,5 +1,5 @@
 # HttpRequest  
-This repository stores a windows application project (Desktop + .NET + C#). The application, called Http Request, provides a gui means of sending http requests and displaying the response data in useful ways. The public (instead of private) nature of this repository is to allow for a showcase of my development ability. It is not for software distribution. It is for exploring, reading, or learning from. To that extent, this repository will not include the future application's full source code. It is, however, a starting point. The current application is in the releases for executable download.
+This repository stores a windows application project (Desktop + .NET + C#). The application, called Http Request, provides a gui means of sending http requests and displaying the response data in useful ways. The public (instead of private) nature of this repository is to allow for a showcase of my development ability. It is not for software distribution. It is for exploring, reading, or learning from. To that extent, this repository will not include the future application's full source code. It is, however, a starting point.  
 
 <img src="HTTPRequest_v1.9.1-alpha.png" width="35%" alt="Application updated to include advanced submission options.">
 
