@@ -29,6 +29,9 @@ Enter any url and select a method for the request. The default is a GET request.
 ## Privacy Policy
 This app does not collect PII data or any records to identify a purchaser individual. Collected information is anonymous and to be used for software improvement.  
 
+## Security
+Part of web security with requests are the headers sent with the request. When POST requests are sent (along with the other requests adding a message body), a StringContent is made in the code for the request. This provides security and ensures the text added to the form is valid string characters, to prevent malicious requests from being sent.
+
 --------  
 &copy; 2024, Robert Howell. All rights reserved.  
 
