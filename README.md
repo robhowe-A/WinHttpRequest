@@ -17,7 +17,7 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 3. Complete the form and click "Send"  
 4. You're started!  
 
-HTTP Request is a working tool, not designed as an attractive, refined display product. Styles are basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive on windows desktops (responsive applications expands or collapse or move elements to fit the window size) and dynamically adaptive view controls make it easy to read and sift data up to the 1920 x 1920 max dimensions.  
+HTTP Request is a working tool, not designed as an attractive, refined display product. Styles are basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive (responsive applications expand or collapse or move elements to fit the window size) and dynamically adaptive view controls make it easy to read and sift data up to the 1920 x 1920 max dimensions.  
 
 <img src="HttpRequest.png" width="25%" alt="HTTP Request application initial form.">
 
