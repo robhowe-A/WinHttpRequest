@@ -1,5 +1,8 @@
-# HttpRequest  
-This repository stores a windows application project (Desktop + .NET + C#). The application, called Http Request, provides a gui means of sending http requests and displaying the response data in useful ways. The public (instead of private) nature of this repository is to allow for a showcase of my development ability. It is not for software distribution. It is for exploring, reading, or learning from. To that extent, this repository will not include the future application's full source code. It is, however, a starting point.  
+# HttpRequest Repository  
+This repository stores a windows application project (Desktop + .NET + C#). The public (instead of private) nature of this repository is to allow for a showcase of my development ability. It is not for software distribution. It is for exploring, reading, or learning from. To that extent, this repository will not include the future application's full source code. It is, however, a starting point.  
+
+# Main  
+The application, called HTTP Request, provides a GUI means of sending customized HTTP requests and displaying the response data in useful ways. It provides a close inspection of request and response data in server-based web environments. For developers or security analysis, this tool promotes testing, inspecting and improving your website's behavior.  
 
 <img src="HTTPRequest_v1.9.1-alpha.png" width="35%" alt="Application updated to include advanced submission options.">
 
@@ -14,11 +17,7 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 3. Click "HTTP Request" to open the app  
 4. That's it! You now have v1 application skipping the need to build and publish.  
 
-- The solution files were created in visual studio 2022.  
-- An executable of the application is made up of the current alpha release. Just click on the release tag on the code directory page to go to the application download location.  
-- It's target is for Windows x64 desktop.  
-
-Http Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, this app is responsive on windows desktops - it expands or collapses menus on request/need - and dynamically adapts its controls based on different situations of request submission. I've tested the app and am happy with 1920 x 1920 max dimensions. It is useful with different data in different sizes, both large or small. Also, Forms seems to fit that.  
+HTTP Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive on windows desktops - responsive applications expands or collapse or move elements to fit the window size - and dynamically adaptive view controls make it easy to sift data up to the 1920 x 1920 max dimensions.  
 
 <img src="HttpRequest.png" width="25%" alt="HTTP Request application initial form.">
 
