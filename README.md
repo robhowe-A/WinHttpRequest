@@ -12,12 +12,12 @@ The use of this software and/or its code is licensed to robhowe-A's (account) ow
 
 ##  Where do I begin?  
 
-1. First, install the application [here](https://apps.microsoft.com/detail/9P1X1ZPKMTLN?hl=en-us&gl=US&ocid=pdpshare)  
-2. The app resides in the start menu apps list  
+1. Application installation is available in the Microsoft Store, [here](https://apps.microsoft.com/detail/9P1X1ZPKMTLN?hl=en-us&gl=US&ocid=pdpshare)  
+2. After the install, it is found in the start menu app list  
 3. Click "HTTP Request" to open the app  
-4. That's it! You now have v1 application skipping the need to build and publish.  
+4. That's it!  
 
-HTTP Request is a working tool, not an attractive or refined display product. The styling is basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive on windows desktops - responsive applications expands or collapse or move elements to fit the window size - and dynamically adaptive view controls make it easy to sift data up to the 1920 x 1920 max dimensions.  
+HTTP Request is a working tool, not designed as an attractive, refined display product. Styles are basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive on windows desktops (responsive applications expands or collapse or move elements to fit the window size) and dynamically adaptive view controls make it easy to read and sift data up to the 1920 x 1920 max dimensions.  
 
 <img src="HttpRequest.png" width="25%" alt="HTTP Request application initial form.">
 
