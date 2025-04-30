@@ -78,6 +78,7 @@ Part of web security with requests are the headers sent with the request. When P
 1-24-2025: v1.9.1-alpha - XML indented print  
 1-27-2025: v1.9.2-alpha - Remove adv view on request form change (allow redirect toggle)  
 2-3-2025: v1.9.3-alpha - Duplicate Host header show error in data grid  
+4-30-2025: v1.9.4.0 - Microsoft store release  
 2-14-2025: v2.0.0-alpha - .NET 9 desktop version (GUI ONLY... use v1 release for developed functions)  
 2-14-2025: v2.0.1-alpha - Prevent app opening if login is not selected  
 2-16-2025: v2.0.2-alpha - Styles and view function setup  
