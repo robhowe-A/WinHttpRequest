@@ -1,8 +1,8 @@
 <!-- 
 Copyright (c) 2024-2026 Robert A. Howell
 Author: Robert A. Howell
-Description: A windows app, useful to developers or even security analysts. The app sends http request calls (i.e. GET, POST, PUT, etc.) using a built-up GUI.
-Created_Date: Auguest 2024
+Description: A Windows app, useful to developers or even security analysts. The app sends http request calls (i.e., GET, POST, PUT, etc.) using a built-up GUI.
+Created_Date: August 2024
 Edited: 2026-01-19
 -->
 
@@ -19,13 +19,12 @@ The application, called HTTP Request, provides a GUI means of sending customized
 The use of this software and/or its code is licensed to robhowe-A's (account) owner [see below copyright].  
 
 ##  Where do I begin?  
-
-1. Application installation is available in the Microsoft Store, [here](https://apps.microsoft.com/detail/9P1X1ZPKMTLN?hl=en-us&gl=US&ocid=pdpshare)  
-    > Note: The application is only released in the U.S.A via the Microsoft Store. Global markets are excluded for tax collection purposes. Full functionality is available for purchase (it's priced at $11.49).   
-2. In the start menu, click "HTTP Request" to open the app  
-3. Complete the form and click "Send"  
-4. You're started!  
-    > Issues: Please inform online any issues you experience either via this [GitHub Issues](https://github.com/robhowe-A/WinHttpRequest/issues) (`https://github.com/robhowe-A/WinHttpRequest/issues`) page or the application's website at [www.httprequest.app](https://www.httprequest.app/index.php/2025/04/22/welcome-to-http-request/).
+1. Application installation is available in the Microsoft Store, [here](https://apps.microsoft.com/detail/9P1X1ZPKMTLN?hl=en-us&gl=US&ocid=pdpshare)
+   > Note: The application is only released in the U.S.A. via the Microsoft Store. Global markets are excluded for tax collection purposes. Full functionality is available for purchase (it's priced at $11.49).
+2. In the start menu, click "HTTP Request" to open the app
+3. Complete the form and click "Send"
+4. You're started!
+   > Issues: Please inform online any issues you experience either via this [GitHub Issues](https://github.com/robhowe-A/WinHttpRequest/issues) (`https://github.com/robhowe-A/WinHttpRequest/issues`) page or the application's website at [www.httprequest.app](https://www.httprequest.app/index.php/2025/04/22/welcome-to-http-request/).
 
 HTTP Request is a working tool, not designed as an attractive, refined display product. Styles are basic and default in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive (responsive applications expand or collapse or move elements to fit the window size) and dynamically adaptive view controls make it easy to read and sift data up to the 1920 x 1920 max dimensions.  
 
@@ -35,16 +34,16 @@ HTTP Request is a working tool, not designed as an attractive, refined display p
 ## How to use the application  
 Enter any url and select a method for the request. The default is a GET request. Use the options or change the input parameters for your requests. Some functionality is for development purposes and may not function.  
 
-## Privacy Policy
+## Privacy Policy  
 This app does not collect PII data or any records to identify a purchaser individual. Collected information is anonymous and to be used for software improvement.  
 
-## Security
-Part of web security with requests are the headers sent with the request. When POST requests are sent (along with the other requests adding a message body), a StringContent is made in the code for the request. This provides security and ensures the text added to the form is valid string characters, to prevent malicious requests from being sent.
+## Security  
+Part of web security with requests is the headers sent with the request. When POST requests are sent (along with the other requests adding a message body), a StringContent is made in the code for the request. This provides security and ensures the text added to the form is valid string characters to prevent malicious requests from being sent.  
 
 --------  
-&copy; 2024-2026, Robert H Developing. All rights reserved.  
+&copy; 2024–2026, Robert H Developing. All rights reserved.  
 
-#### Tags - (optional)Updates  
+#### Tags – (optional)Updates  
 <details>
 <summary>Version 1.3 - 1.5</summary>
 
@@ -55,7 +54,7 @@ Part of web security with requests are the headers sent with the request. When P
 10-1-2024: v1.4.3-alpha - name-value key  
 10-6-2024: v1.5.1-alpha - advanced details view  
 10-6-2024: v1.5.2-alpha  
-10-6-2024: v1.5.3-alpha  
+10-6-2024: v1.5.3-alpha
 </details>  
 
 <details>
@@ -78,7 +77,7 @@ Part of web security with requests are the headers sent with the request. When P
 1-6-2025: v1.8.2-alpha - adv window open bug fix  
 1-7-2025: v1.8.3-alpha - clear + copy buttons for individual response tab  
 1-8-2025: v1.8.4-alpha - adv buttons change visibility behavior  
-1-8-2025: v1.8.5-alpha - adv button tag data change on exception  
+1-8-2025: v1.8.5-alpha - adv button tag data change on exception
 </details>  
 
 <details>
@@ -86,7 +85,7 @@ Part of web security with requests are the headers sent with the request. When P
 
 1-12-2025: v1.8.6-alpha - Request address data detail  
 1-12-2025: v1.8.7-alpha - Request address data detail full sizing  
-1-13-2025: v1.8.8-alpha - Adanced option "Allow auto redirect"  
+1-13-2025: v1.8.8-alpha - Advanced option "Allow auto redirect"  
 1-14-2025: v1.8.9-alpha - Advanced detail addition  
 1-16-2025: v1.8.10-alpha - Content type header tool tip  
 1-16-2025: v1.8.11-alpha - Data grid view row cleanup exception fix  
@@ -106,12 +105,11 @@ Part of web security with requests are the headers sent with the request. When P
 3-8-2025: v2.0.8-alpha - Advanced details window size  
 3-10-2025: v2.0.9-alpha - Server headers added to requests  
 3-10-2025: v2.1.0-alpha - Advanced options addition  
-3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect  
+3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect
 </details>
 
-**<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0** - Microsoft store release  
+**<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0** – Microsoft store release  
 Publisher: Robert H Developing  
 Developer: Robert Howell  
 Purchase: [HTTP Request on Microsoft Store](https://apps.microsoft.com/detail/9p1x1zpkmtln?hl=en-us&gl=US&ocid=pdpshare)  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
-
