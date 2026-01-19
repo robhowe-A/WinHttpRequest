@@ -1,4 +1,10 @@
-<!-- Copyright (c) 2024-2026 Robert A. Howell -->
+<!-- 
+Copyright (c) 2024-2026 Robert A. Howell
+Author: Robert A. Howell
+Description: A windows app, useful to developers or even security analysts. The app sends http request calls (i.e. GET, POST, PUT, etc.) using a built-up GUI.
+Created_Date: Auguest 2024
+Edited: 2026-01-19
+-->
 
 # HttpRequest Repository  
 This repository stores a windows application project (Desktop + .NET + C#). The public (instead of private) nature of this repository is to allow for a showcase of my development ability. It is not for software distribution. It is for exploring, reading, or learning from. To that extent, this repository will not include the future application's full source code. It is, however, a starting point.  
@@ -108,3 +114,4 @@ Publisher: Robert H Developing
 Developer: Robert Howell  
 Purchase: [HTTP Request on Microsoft Store](https://apps.microsoft.com/detail/9p1x1zpkmtln?hl=en-us&gl=US&ocid=pdpshare)  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
+
