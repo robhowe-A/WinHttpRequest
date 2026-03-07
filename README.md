@@ -105,6 +105,6 @@ Part of web security with requests is the headers sent with the request. When PO
 </details>
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
-Publisher: Robert H Developing  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
+
