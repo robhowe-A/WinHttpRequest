@@ -15,9 +15,6 @@ The application, called HTTP Request, provides a GUI means of sending customized
 <img src="HTTPRequest_v1.9.1-alpha.png" width="35%" alt="Application updated to include advanced submission options.">
 
 
-## License  
-The use of this software and/or its code is licensed to robhowe-A's (account) owner [see below copyright].  
-
 ##  Where do I begin?  
 1. The application is released as an .exe, [here](https://github.com/robhowe-A/WinHttpRequest/releases)
 2. The zip contains the application
@@ -37,7 +34,7 @@ Enter any url and select a method for the request. The default is a GET request.
 Part of web security with requests is the headers sent with the request. When POST requests are sent (along with the other requests adding a message body), a StringContent is made in the code for the request. This provides security and ensures the text added to the form is valid string characters to prevent malicious requests from being sent.  
 
 --------  
-&copy; 2024–2026, Robert H Developing. All rights reserved.  
+&copy; 2024–2026, Robert Howell All rights reserved.  
 
 #### Tags – (optional)Updates  
 <details>
@@ -107,5 +104,6 @@ Part of web security with requests is the headers sent with the request. When PO
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
+
 
 
