@@ -9,7 +9,7 @@ Edited: 2026-03-07
 # Http Request Repository  
 This repository stores a windows application project (Desktop + .NET + C#). The public (instead of private) nature of this repository is for development demonstration. It is not for distribution. It is for exploring, reading, or learning from. To that extent, this repository does not include the future application's full source code.  
 
-# Main  
+## Main  
 The application, called HTTP Request, provides a GUI means of sending customized HTTP requests and displaying the response data in useful ways. It provides a close inspection of request and response data in server-based web environments. For developers or security analysis, this tool promotes testing, inspecting and improving your website's behavior.  
 
 <img src="HTTPRequest_v1.9.1-alpha.png" width="35%" alt="Application updated to include advanced submission options.">
@@ -107,4 +107,5 @@ Part of web security with requests is the headers sent with the request. When PO
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
+
 
