@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HttpRequest": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
