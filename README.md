@@ -3,7 +3,7 @@ Copyright (c) 2024-2026 Robert A. Howell
 Author: Robert A. Howell
 Description: A Windows app, useful to developers and security analysts. The app sends http request calls (i.e., GET, POST, PUT, etc.) using a built-up GUI.
 Created_Date: August 2024
-Edited: 2026-03-07
+Edited: 2026-03-24
 -->
 
 # Http Request Repository  
@@ -12,7 +12,7 @@ This repository stores a windows application project (Desktop + .NET + C#). The 
 ## Main  
 The application, called HTTP Request, provides a GUI means of sending customized HTTP requests and displaying the response data in useful ways. It provides a close inspection of request and response data in server-based web environments. For developers or security analysis, this tool promotes testing, inspecting and improving your website's behavior.  
 
-<img src="HTTPRequest_v1.9.1-alpha.png" width="35%" alt="Application updated to include advanced submission options.">
+![Application updated to include advanced submission options.](HTTPRequest_v1.9.1-alpha.png)
 
 
 ##  Where do I begin?  
@@ -23,7 +23,7 @@ The application, called HTTP Request, provides a GUI means of sending customized
 
 HTTP Request is a working tool, not designed as an attractive, refined display product. Styles are basic in many elements. Developed in Forms style, the app is useful with data in different sizes, large or small. Responsive (responsive applications expand or collapse or move elements to fit the window size) and dynamically adaptive view controls make it easy to read and sift data up to 1920 x 1920 max dimensions.  
 
-<img src="HttpRequest.png" width="25%" alt="HTTP Request application initial form.">
+![HTTP Request application initial form.](HttpRequest.png)
 
 
 ## How to use the application  
@@ -74,7 +74,7 @@ Part of web security with requests is the headers sent with the request. When PO
 </details>  
 
 <details>
-<summary>Version 1.9 - 2.1.1-alpha</summary>
+<summary>Version 1.9 - current</summary>
 
 1-12-2025: v1.8.6-alpha - Request address data detail  
 1-12-2025: v1.8.7-alpha - Request address data detail full sizing  
@@ -98,12 +98,14 @@ Part of web security with requests is the headers sent with the request. When PO
 3-8-2025: v2.0.8-alpha - Advanced details window size  
 3-10-2025: v2.0.9-alpha - Server headers added to requests  
 3-10-2025: v2.1.0-alpha - Advanced options addition  
-3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect
+3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect  
+3-21-2026: v2.1.1-alpha - Engine added. added to releases  
+3-22-2026: v2.1.2-alpha - Delete tree view items  
+3-23-2026: v2.1.3-alpha - Dotnet 10 upgrade  
 </details>
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
+**ALPHA RELEASE (3/22/2026) HTTP Request v2.1.3-alpha**  
+Http.Request_v2.1.3-alpha.zip: sha256:e2fccde6f9a4b484d53684aba515476e5a9b4136aa7f8e80e1819f17f04b7212  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
-
-
-
