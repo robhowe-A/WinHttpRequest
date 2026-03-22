@@ -3,7 +3,7 @@ Copyright (c) 2024-2026 Robert A. Howell
 Author: Robert A. Howell
 Description: A Windows app, useful to developers and security analysts. The app sends http request calls (i.e., GET, POST, PUT, etc.) using a built-up GUI.
 Created_Date: August 2024
-Edited: 2026-03-07
+Edited: 2026-03-21
 -->
 
 # Http Request Repository  
@@ -99,12 +99,13 @@ Part of web security with requests is the headers sent with the request. When PO
 3-10-2025: v2.0.9-alpha - Server headers added to requests  
 3-10-2025: v2.1.0-alpha - Advanced options addition  
 3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect
+3-21-2026: v2.1.1-alpha - Engine added. added to releases
 </details>
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
+**ALPHA RELEASE (3/21/2026) HTTP Request v2.1.1**  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
-
 
 
 
