@@ -100,12 +100,10 @@ Part of web security with requests is the headers sent with the request. When PO
 3-10-2025: v2.1.0-alpha - Advanced options addition  
 3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect
 3-21-2026: v2.1.1-alpha - Engine added. added to releases
+3-22-2026: v2.1.2-alpha - Delete tree view items
 </details>
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
-**ALPHA RELEASE (3/21/2026) HTTP Request v2.1.1 .. sha256:1273a5f563c82b876d35530dfe687dafb1a67b4767bbdb6e0f7a53d2e05c07d6**  
+**ALPHA RELEASE (3/22/2026) HTTP Request v2.1.2-alpha .. sha256:352e19bb04bcec5142b7cc0ee2bab984566a735c2922704891cb92e698c2f419**  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
-
-
-
