@@ -98,14 +98,14 @@ Part of web security with requests is the headers sent with the request. When PO
 3-8-2025: v2.0.8-alpha - Advanced details window size  
 3-10-2025: v2.0.9-alpha - Server headers added to requests  
 3-10-2025: v2.1.0-alpha - Advanced options addition  
-3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect
-3-21-2026: v2.1.1-alpha - Engine added. added to releases
-3-22-2026: v2.1.2-alpha - Delete tree view items
-3-23-2026: v2.1.2-alpha - Dotnet 10 upgrade
+3-19-2025: v2.1.1-alpha - Added request send status info + bug from WPF event fixed in redirect  
+3-21-2026: v2.1.1-alpha - Engine added. added to releases  
+3-22-2026: v2.1.2-alpha - Delete tree view items  
+3-23-2026: v2.1.2-alpha - Dotnet 10 upgrade  
 </details>
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
 **ALPHA RELEASE (3/22/2026) HTTP Request v2.1.3-alpha**
-Http Request_v2.1.3-alpha.zip: sha256:ecfbad8babdb1beb9b497542d045b06c775039acfec2e553e2f04116a0b99320  
+Http.Request_v2.1.3-alpha.zip: sha256:ecfbad8babdb1beb9b497542d045b06c775039acfec2e553e2f04116a0b99320  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
