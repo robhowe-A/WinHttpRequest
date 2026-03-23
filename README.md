@@ -105,6 +105,6 @@ Part of web security with requests is the headers sent with the request. When PO
 
 **<u>CURRENT RELEASE:</u> HTTP Request v1.9.4.0**  
 **ALPHA RELEASE (3/22/2026) HTTP Request v2.1.2-alpha**
-Http.Request_v2.1.2-alpha.zip: sha256:c6bc0e22e4dd48118d17c658d68311feb21386adca4ce9a2689726afc6ed5330  
+Http.Request_v2.1.2-alpha.zip: sha256:885e675ffd99d845161fe0f7d280cae2d3c31e6f8a9c37c24b96e3a12987238c  
 Developer: Robert Howell  
 Learn: [www.httprequest.app](https://www.httprequest.app/)  
